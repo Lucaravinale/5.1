@@ -5,7 +5,7 @@ public class CodeGenerator {
 
     LinkedList <Instruction> instructions = new LinkedList <Instruction>();
 
-    int label=0; //5555
+    int label=0; 
 
     public void emit(OpCode opCode) {
         instructions.add(new Instruction(opCode));
